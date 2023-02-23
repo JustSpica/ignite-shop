@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 import { styled } from "@/styles";
 
-export const HomeContainer = styled('main', {
+export const HomeContainer = styled("main", {
   width: "100%",
   maxWidth: "calc(100vw - ((100vw - 1180px) / 2))",
   minHeight: 656,
@@ -9,7 +11,7 @@ export const HomeContainer = styled('main', {
   display: "flex",
 })
 
-export const Product = styled('a', {
+export const Product = styled(Link, {
   position: "relative",
 
   display: "flex",
@@ -23,7 +25,7 @@ export const Product = styled('a', {
   overflow: "hidden",
 
   img: {
-    objectFit: 'cover'
+    objectFit: "cover"
   },
 
   footer: {
@@ -45,7 +47,8 @@ export const Product = styled('a', {
     transition: "all 0.2s ease-in-out",
 
     strong: {
-      fontSize: "$lg"
+      fontSize: "$lg",
+      color: "$gray100"
     },
   
     span: {

@@ -1,38 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![background](https://user-images.githubusercontent.com/75824415/222299564-e2d9bcdc-b77a-474a-a334-bd4339570548.png)
 
-## Getting Started
+# Ignite Shop
 
-First, run the development server:
+> Status: Finalizado 🎉
 
+## 📢 Deploy on Vercel
+**🚧 Esse projeto ainda não foi publicado em produção. 🚧**
+
+## 📚 Descrição
+
+O Ignite Shop é um simples projeto de uma loja online de camisetas que utiliza o framework NextJS. O projeto conta com um sistema de gerenciamento de estoque e integração com o Stripe para o processamento de pagamentos. O Ignite Shop foi desenvolvido durante o módulo de NextJS do curso Ignite, oferecido pela escola de programação Rocketseat.
+
+## 🌟 Tecnologias
+- [ ] React
+- [ ] Typescript
+- [ ] Stitches
+- [ ] Next 13
+- [ ] Axios
+- [ ] Keen Slider
+- [ ] Stripe
+
+## 🎨 Layout
+O layout das telas foi fornecido integralmente pelos designers da Rocketseat e pode ser encontrado [aqui](https://www.figma.com/file/mc7HVPcoTcyCQ6I0b9asWS/Ignite-Shop-(Copy)?node-id=2%3A12&t=Zn4CNpFBNAWZvqhO-0).
+
+## 🚪 Passos para rodar o projeto
+Você ira precisar ter o [NodeJS](https://nodejs.org/en/) baixado em seu computador para rodar esse projeto e o [Git](https://git-scm.com/downloads) para clonar o repositório.
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/JustSpica/ignite-shop.git
+
+# Para rodar o projeto em modo de desenvolvimento
+$ npm run dev
+
+# Para rodar o projeto em modo de produção.
+$ npm run build
+$ npm run start
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

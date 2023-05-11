@@ -27,19 +27,6 @@ O Ignite Shop é um simples projeto de uma loja online de camisetas que utiliza 
 - [X] Keen Slider
 
 ## 🚪 Passos para rodar o projeto
-Você ira precisar ter o [NodeJS](https://nodejs.org/en/) baixado em seu computador para rodar esse projeto e o [Git](https://git-scm.com/downloads) para clonar o repositório.
-```bash
-git clone https://github.com/JustSpica/ignite-shop.git
-
-# Para rodar o projeto em modo de desenvolvimento
-$ npm run dev
-
-# Para rodar o projeto em modo de produção.
-$ npm run build
-$ npm run start
-```
-
-## 🚪 Passos para rodar o projeto
 Você ira precisar ter o [NodeJS](https://nodejs.org/en/) instalado para rodar esse projeto.
 
 **Clone o projeto e acesse a pasta**
